@@ -8,5 +8,4 @@ for num in numbers:
         result.append("over")
     else:
         result.append(n)
-
-    print("Processed list :",result)
+        print("Processed list :",result)
