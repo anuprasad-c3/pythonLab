@@ -1,6 +1,7 @@
 n = int(input("Enter number of items in dictionary: "))
 my_dict = {}
 
+
 for i in range(n):
     key = input("Enter key: ")
     value = input("Enter value: ")
