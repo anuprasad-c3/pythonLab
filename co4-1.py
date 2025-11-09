@@ -10,14 +10,14 @@ class Rectangle:
         return 2 * (self.length + self.breadth)
 
 
-# Create first rectangle
+# first rectangle
 r1 = Rectangle()
 print("Enter details for Rectangle 1:")
 l1 = float(input("Enter length: "))
 b1 = float(input("Enter breadth: "))
 r1.set_values(l1, b1)
 
-# Create second rectangle
+# second rectangle
 r2 = Rectangle()
 print("\nEnter details for Rectangle 2:")
 l2 = float(input("Enter length: "))
